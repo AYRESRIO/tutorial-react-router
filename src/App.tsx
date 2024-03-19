@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "./App.css";
 
 export default function App() {
   return (
-    <div>
+    <>
       <nav
         style={{
           borderBottom: "solid 1px",
@@ -13,6 +13,7 @@ export default function App() {
         <Link to="/invoices">Invoices</Link> |{" "}
         <Link to="/expenses">Expenses</Link>
       </nav>
-    </div>
+      <Outlet />
+    </>
   );
 }
