@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Expenses from "./routs/Expenses/index.tsx";
-import Invoices from "./routs/Invoices/index.tsx";
-import NotFound from "./routs/NotFound/index.tsx";
-import Invoice from "./routs/Invoices/Invoice/index.tsx";
-import InvoicesIndex from "./routs/Invoices/InvoicesIndex/index.tsx";
-import Welcome from "./routs/Welcome/index.tsx";
+import Expenses from "./routes/Expenses/index.tsx";
+import Invoices from "./routes/Invoices/index.tsx";
+import NotFound from "./routes/NotFound/index.tsx";
+import Invoice from "./routes/Invoices/Invoice/index.tsx";
+import InvoicesIndex from "./routes/Invoices/InvoicesIndex/index.tsx";
+import Welcome from "./routes/Welcome/index.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
